@@ -8,6 +8,7 @@ from time import sleep
 import traceback
 from config import my_addresses, reddit, ftxus_client, etherscan_key
 
+
 def parse_initial(string, user, comment_id):
     h_amount = re.findall('(?<=\[H\]\s)(?:\d+)?\.?\d+(?=\s)', string)[0]
     h_coin = re.findall('(?:\[H\]\s[\d.]+\s)(\w+)', string)[0]

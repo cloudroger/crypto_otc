@@ -4,6 +4,7 @@ import pickle
 from config import reddit, my_addresses, ftxus_client
 
 
+
 chain_explorers_txid = {'TRC-20':'https://tronscan.org/#/transaction/',
                    'ERC-20':'https://etherscan.io/tx/',
                    'BTC':'https://www.blockchain.com/btc/tx/',
