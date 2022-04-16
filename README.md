@@ -10,7 +10,7 @@ This project functions as a cross-chain bridge and automated over-the-counter de
 Instead of starting out as a standalone web app, the user interface comes in the form of a reddit bot.
 
 # Process goes as such:
-User follows instructed format for created channel by making a public reddit comment on a designated daily post. i.e. indicating seven pieces of information:
+User follows instructed format for creating channel by making a public reddit comment on a designated daily post. i.e. indicating seven pieces of information:
 1) Amount of *Have* coin desired to be swapped
 2) *Have* coin
 3) *Want* coin
