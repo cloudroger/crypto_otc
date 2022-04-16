@@ -1,5 +1,5 @@
 # crypto_otc
-Cross-chain and cross-token one-party-trust bridge with a reddit bot functioning as the user interface
+Cross-chain and cross-token one-party-trust bridge with a [reddit bot](https://www.reddit.com/r/CryptoOTC/) functioning as the user interface
 
 [Bridges](https://ethereum.org/en/bridges/) in the blockchain space are a method of transferring assets from one chain to another. For example, BTC on the BTC chain to WBTC on the Ethereum chain.
 One of the problems facing trustless bridges run by smart contracts is the high cost of operation. Primarily because of (1) network fees required by maintaining a fully decentralized system, and (2) Low liquidity in the dex (decentralized exchange) space.
