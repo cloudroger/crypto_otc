@@ -1,3 +1,6 @@
 etherscan
 tronpy
 pickle
+praw
+ccxt
+solana
