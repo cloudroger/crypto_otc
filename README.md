@@ -7,7 +7,6 @@ One of the problems facing trustless bridges run by smart contracts is the high 
 One solution to this, especially to address problem (2) is making use of centralized exchange liquidity for backend capital management. Albeit this comes at the cost of trust on behalf of the end user.
 
 This project functions as a cross-chain bridge and automated over-the-counter desk for a defined list of supported crypto assets.
-Instead of starting out as a standalone web app, the user interface comes in the form of a reddit bot.
 
 # Process goes as such:
 User follows instructed format for creating channel by making a public reddit comment on a designated daily post. i.e. indicating seven pieces of information:
