@@ -1,12 +1,11 @@
 # crypto_otc
-Cross-chain and cross-token one-party-trust bridge with a [reddit bot](https://www.reddit.com/r/CryptoOTC/) functioning as the user interface
+Cross-chain and cross-token one-party-trust otc desk, using a [reddit bot](https://www.reddit.com/r/CryptoOTC/) as the user interface
 
-[Bridges](https://ethereum.org/en/bridges/) in the blockchain space are a method of transferring assets from one chain to another. For example, BTC on the BTC chain to WBTC on the Ethereum chain.
-One of the problems facing trustless bridges run by smart contracts is the high cost of operation. Primarily because of (1) network fees required by maintaining a fully decentralized system, and (2) Low liquidity in the dex (decentralized exchange) space.
+One of the problems facing trustless cross-chain cross-token exchange protocols run by smart contracts is the high cost of operation. Primarily because of (1) network fees required by maintaining a fully decentralized system, and (2) Low liquidity in the dex (decentralized exchange) space.
 
-One solution to this, especially to address problem (2) is making use of centralized exchange liquidity for backend capital management. Albeit this comes at the cost of trust on behalf of the end user.
+One solution to this, especially to address problem (2) is to offer a counterparty directly network-facing for cross-token and cross-chain swaps while using making immediate use of centralized exchange liquidity. Albeit this infers a centralized approach and comes at the cost of trust on behalf of the end user.
 
-This project functions as a cross-chain bridge and automated over-the-counter desk for a defined list of supported crypto assets.
+This project functions as a cross-chain over-the-counter desk for a defined list of supported crypto assets.
 
 # Process goes as such:
 User follows instructed format for creating channel by making a public reddit comment on a designated daily post. i.e. indicating seven pieces of information:
@@ -22,7 +21,7 @@ Supposing that the information is properly formatted and successfully recognized
 
 The reddit bot replies with the channel specification, i.e. Listening for *H* coin on *abc* address via the *xyz* network.
 
-The backend system appends this to a block of open channels to be listening for, and checks for respective deposits on an indefinite time cycle.
+The backend system appends this to a block of open channels to be listening for, and checks for respective deposits on a perpetual time cycle.
 
 Once a deposit is made for an active channel, the coin is automatically exchanged (direct and triangular both supported) for the requested coin and sent back to the requested receival address.
 
