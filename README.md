@@ -3,7 +3,7 @@ Cross-chain and cross-token one-party-trust otc desk, using a [reddit bot](https
 
 One of the problems facing trustless cross-chain cross-token exchange protocols run by smart contracts is the high cost of operation. Primarily because of (1) network fees required by maintaining a fully decentralized system, and (2) Low liquidity in the dex (decentralized exchange) space.
 
-One solution to this, especially to address problem (2) is to offer a counterparty directly network-facing for cross-token and cross-chain swaps while using making immediate use of centralized exchange liquidity. Albeit this infers a centralized approach and comes at the cost of trust on behalf of the end user.
+One solution to this, especially to address problem (2) is to offer a counterparty directly network-facing for cross-token and cross-chain swaps while making immediate use of centralized exchange liquidity. Albeit this implies a centralized approach and comes at the cost of trust on behalf of the end user.
 
 This project functions as a cross-chain over-the-counter desk for a defined list of supported crypto assets.
 
