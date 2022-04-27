@@ -30,4 +30,3 @@ Trust. The end-user has no way of verifying that the transaction will be execute
 
 # Status as of 4/16/22
 A minimum viable version of the the system is supported for a limited number of coins and chains. Though QA has not yet been implemented and this will not be deployed live until significant testing is done against the QA checks-to-be. In addition to this, the code is lacking documentation and cleanup i.e. sourcing hard-coded meta data from external files.
-
