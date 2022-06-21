@@ -1,5 +1,5 @@
 # crypto_otc
-Cross-chain and cross-token one-party-trust otc desk, using a [reddit bot](https://www.reddit.com/r/CryptoOTC/) as the user interface
+Cross-chain swapbot on Reddit.
 
 One of the problems facing trustless cross-chain cross-token exchange protocols run by smart contracts is the high cost of operation. Primarily because of (1) network fees required by maintaining a fully decentralized system, and (2) Low liquidity in the dex (decentralized exchange) space.
 
